@@ -1,0 +1,25 @@
+import random
+
+print("En este juegos ganas si \n cae un par de unos \n un total de tres \n un total de 11 \n y un total de 7")
+
+dado1 = random.randint(1, 6)
+dado2 = random.randint(1, 6)
+
+operacion=dado1+dado2
+print("el primer dado es",dado1,"el segundo dado es",dado2,"la suma de los 2 es",operacion)
+
+if dado1==1 and dado2==1:
+    print("Ganaste")
+elif operacion ==3:
+    print("Ganaste")
+elif operacion==7:
+    print("Ganaste")
+elif operacion ==11:
+    print("Ganaste")
+elif dado1==6 and dado2==6:
+    print("Ganaste")
+elif operacion==2:
+    print("Ganaste")
+    
+else:
+    print("Perdiste")
