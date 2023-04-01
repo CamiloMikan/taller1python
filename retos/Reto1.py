@@ -1,3 +1,0 @@
-farenheith=int(input("ingrese los grados farenheith "))
-operacion=(farenheith - 32)/1.8
-resultado=print("los grados centigrados son ", operacion,"°C")
